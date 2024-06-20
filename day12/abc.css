@@ -1,0 +1,19 @@
+.a{
+	background-color: red;
+	align-content: center;
+	text-align: center;
+	box-shadow: 10px 10px 10px black;
+	border-radius:100%;
+}
+.b{
+	background-color: blue;
+	height:100px;
+	font-family: brush script MT;
+	align-content: center;
+	height: 100px;
+	width:20%;
+	border-top-color: white;
+	border-bottom-color: black;
+	align-content: center;
+	text-align: center;
+}
