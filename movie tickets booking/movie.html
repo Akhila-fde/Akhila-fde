@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="movie.css">
+        <script src="movie.js"></script>
+    </head>
+    <body>
+        <section id="login1">
+        <div class="container">
+            <form id="login-form">
+                <label for="username"><h3>Username:</h3></label>
+                <input type="text" id="username" name="username" required class="input">
+                <br>
+                <label for="password"><h3>Password:</h3></label>
+                <input type="password" id="password" name="password" class="input">
+                <br><br><br>
+                <button type="submit" class="submit" onclick="bn();return false;">Login</button>
+            </form>
+        </div>
+    </section>
+    <br>
+    <br><br><br>
+        <h1 id="m2" class="title">Book Your Favorite Show</h1>  
+        <div class="movie-list" id="m3">
+            <div class="movie-item">
+                <img src="https://tse2.mm.bing.net/th?id=OIF.UFnx6wMfhFBA4FWcDll9%2bg&pid=Api&P=0&h=180" class="movie-poster">
+                <h2 class="movie-title" id="kalki">IT ENDS WITH US</h2>
+                <button class="book-button" onclick="bookMovie('KALKI')">Book Now</button>
+            </div>
+            <div class="movie-item">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.uRq41bkaTw3usMgylwvE6gHaLY&pid=Api&P=0&h=180" class="movie-poster">
+                <h2 class="movie-title" id="raayan">FROZEN</h2>
+                <button class="book-button" onclick="bookMovie('RAAYAN')">Book Now</button>
+            </div>
+            <div class="movie-item">
+                <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/the-birthday-boy-et00404413-1720693271.jpg" class="movie-poster">
+                <h2 class="movie-title" id="birthday-boy">THE BIRTHDAY BOY</h2>
+                <button class="book-button" onclick="bookMovie('THE BIRTHDAY BOY')">Book Now</button>
+            </div>
+            <div class="movie-item">
+                <img src="https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/pekamedalu-et00403873-1720417217.jpg" class="movie-poster">
+                <h2 class="movie-title" id="pekamedalu">PEKAMEDALU</h2>
+                <button class="book-button" onclick="bookMovie('PEKAMEDALU')">Book Now</button>
+            </div>
+        </div>
+        <br>
+    <br><br><br><br><br><br><br>
+        <div class="seat-selection"id="seat1">
+            <div class="box" id="C1" onclick="selectSeat('C1', 400)">1</div>
+            <div class="box" id="C2" onclick="selectSeat('C2', 400)">2</div>
+            <div class="box" id="C3" onclick="selectSeat('C3', 400)">3</div>
+            <div class="box" id="C4" onclick="selectSeat('C4', 400)">4</div>
+            <div class="box" id="C5" onclick="selectSeat('C5', 400)">5</div>
+            <div class="box" id="C6" onclick="selectSeat('C6', 400)">6</div>
+            <div class="box" id="C7" onclick="selectSeat('C7', 400)">7</div>
+            <div class="box" id="C8" onclick="selectSeat('C8', 400)">8</div>
+            <div class="box" id="C9" onclick="selectSeat('C9', 400)">9</div>
+            <div class="box" id="C10" onclick="selectSeat('C10', 400)">10</div>
+            <div class="box" id="C11" onclick="selectSeat('C11', 400)">11</div>
+            <div class="box" id="B12" onclick="selectSeat('B12', 320)">12</div>
+            <div class="box" id="B13" onclick="selectSeat('B13', 320)">13</div>
+            <div class="box" id="B14" onclick="selectSeat('B14', 320)">14</div>
+            <div class="box" id="B15" onclick="selectSeat('B15', 320)">15</div>
+            <div class="box" id="B16" onclick="selectSeat('B16', 320)">16</div>
+            <div class="box" id="B17" onclick="selectSeat('B17', 320)">17</div>
+            <div class="box" id="B18" onclick="selectSeat('B18', 320)">18</div>
+            <div class="box" id="B19" onclick="selectSeat('B19', 320)">19</div>
+            <div class="box" id="B20" onclick="selectSeat('B20', 320)">20</div>
+            <div class="box" id="B21" onclick="selectSeat('B21', 320)">21</div>
+            <div class="box" id="B22" onclick="selectSeat('B22', 320)">22</div>
+            <div class="box" id="B23" onclick="selectSeat('B23', 320)">23</div>
+            <div class="box" id="B24" onclick="selectSeat('B24', 320)">24</div>
+            <div class="box" id="B25" onclick="selectSeat('B25', 320)">25</div>
+            <div class="box" id="B26" onclick="selectSeat('B26', 320)">26</div>
+            <div class="box" id="B27" onclick="selectSeat('B27', 320)">27</div>
+            <div class="box" id="B28" onclick="selectSeat('B28', 320)">28</div>
+            <div class="box" id="B29" onclick="selectSeat('B29', 320)">29</div>
+            <div class="box" id="B30" onclick="selectSeat('B30', 320)">30</div>
+            <div class="box" id="B31" onclick="selectSeat('B31', 320)">31</div>
+            <div class="box" id="B32" onclick="selectSeat('B32', 320)">32</div>
+            <div class="box" id="B33" onclick="selectSeat('B33', 320)">33</div>
+            <div class="box" id="A34" onclick="selectSeat('A34', 220)">34</div>
+            <div class="box" id="A35" onclick="selectSeat('A35', 220)">35</div>
+            <div class="box" id="A36" onclick="selectSeat('A36', 220)">36</div>
+            <div class="box" id="A37" onclick="selectSeat('A37', 220)">37</div>
+            <div class="box" id="A38" onclick="selectSeat('A38', 220)">38</div>
+            <div class="box" id="A39" onclick="selectSeat('A39', 220)">39</div>
+            <div class="box" id="A40" onclick="selectSeat('A40', 220)">40</div>
+            <div class="box" id="A41" onclick="selectSeat('A41', 220)">41</div>
+            <div class="box" id="A42" onclick="selectSeat('A42', 220)">42</div>
+            <div class="box" id="A43" onclick="selectSeat('A43', 220)">43</div>
+            <div class="box" id="A44" onclick="selectSeat('A44',220)">44</div>
+        </div>
+    <br>
+        <div class="screen" id="sc1">
+            <h2>screen</h2>
+        </div>
+        <br>
+        <div class="bx" id="m5">
+            <div class="bx1">
+            </div>
+            <div class="x">Unselectedseats</div>
+            <div class="bx2">
+            </div>
+            <div class="x">Selectedseats</div>
+        </div>
+        <br>
+    <br><br><br><br><br><br><br>
+        <div class="cart" id="bk">
+            <button class="show-cart-button" onclick="addnew()">Show booking details</button>
+        </div>
+    <br>
+        <div class="cart-details" id="container"></div>
+    </body>
+</html>
